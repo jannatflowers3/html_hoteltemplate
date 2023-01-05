@@ -1,0 +1,650 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'League Gothic', sans-serif; */
+}
+h1,h2,h3{
+   font-family: 'League Gothic', sans-serif;
+}
+.padding{
+    padding: 80px 0px;
+}
+.headerTop{
+    background-color: #fff;
+    border-bottom: 1px solid #dedede ;
+    border-top: 1px solid #dedede ;
+    padding: 6px 0px;
+}
+.topright i{
+    background-color: #b99470;
+    padding: 6px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 50%;
+    margin-right: 11px;
+}
+.topright span{
+    font-weight: 400;
+    color: #181b20;
+    font-size: 13px;
+    margin-right: 14px;
+}
+/* fixed .topbook */
+.content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  .fixednav{
+    z-index: 1;
+  }
+  /* sticky end */
+
+
+.topbook{
+    
+    float: right;
+}
+.topbook i{
+    padding-right: 13px;
+}
+.topBookButton{
+    background-color: #b99470;
+    color: #fff;
+    padding: 15px 30px 15px 35px;
+    font-weight: 500;
+    border: none;
+    border-radius: 7px;
+}
+.topBookButton:hover{
+background-color: #b994708f;
+border: none;
+color: #000;
+}
+.headertop{
+    padding: 13px 20px 15px 8px;
+    font-size: 13px
+}
+/* header {
+    /* border-bottom: 1px solid #b99470; */
+} */
+/* mynavigation start */
+.mynavigation {
+    background-color: gray;
+}
+.mymenu{
+    margin: 0 auto;
+    padding-left: 291px;
+}
+.mymenu li a:hover{
+    /* padding-top: 10px;
+border-bottom:1px solid #b994708f; */
+transition: 0.8s;
+color: #b994708f;
+}
+.sliderpadding{
+    padding: 0;
+}
+.mycaroTitle{
+    position: absolute;
+    bottom:100px;
+}
+.mycaroTitle h5{
+    font-size: 70px;
+    color: #000000cf;
+}
+.mycaroTitle p{
+    font-size: 25px;
+}
+.welcome{
+
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f3f5f6 ;
+
+}
+.carasil3{
+color: #000;
+}
+.welcome h1 {
+  font-family: 'League Gothic', sans-serif;
+  font-size: 70px;
+}
+.welcome h5{
+
+  font-size: 17px;
+ font-family:none;
+  padding: 20px 0px;
+}
+.welcome p{
+    padding: 20px 0px;
+}
+.welcomeImg img{
+    float: left;
+margin-left: 34px;
+padding-top: 49px;
+}
+.welcomeImg img:hover{
+    opacity: 0.5;
+}
+/*facilities*/
+.facilities{
+
+}
+.facilities_title {
+    padding: 40px 0px;
+}
+.facilities_title h2 { 
+ font-size: 50px;
+ font-family: 'League Gothic', sans-serif;
+ padding-bottom: 20px;
+ position: relative;
+}
+.facilities_title h2:before{
+    position: absolute;
+    content: "";
+   left: 44%;
+width: 73px;
+height: 4px;
+background-color: #b99470;
+top: 77px;
+}
+.facilites_Part i{
+    color: #b99470;
+    font-size: 28px;
+    cursor: pointer;
+}
+.facilites_Part i:hover{
+transform: scale(1.5);
+transition: 0.8s;
+}
+.facilites_Part h4{
+    font-size: 26px;
+
+padding: 25px 0px;
+margin: 0;
+}
+.facilites_Part p{}
+/*featured*/
+.featured{
+background-color: #f3f5f6;
+}
+.featured_title{}
+.featured_title h5{
+    font-size: 15px;
+letter-spacing: 2px;
+}
+.featured_title h2{
+
+  padding: 0px;
+  padding-bottom: 50px;
+  padding-top: 10px;
+  font-size: 53px;
+}
+.facilities_part{
+position: relative;
+overflow: hidden;
+cursor: pointer;
+}
+.facilities_part img{
+    width: 100%;
+    display: block;
+    transition: 0.8s;
+}
+.facilities_part:hover img{
+    transform: scale(1.5)
+}
+.facilities_button{
+    display: none;
+    margin: 20px 100px;
+    transition: 0.8s;
+}
+.facilities_part:hover .facilities_button{
+    display: block;
+    
+}
+.topto_bottom{
+    margin-top: 70px;
+}
+.facilities_overlay{
+  position: absolute;
+top: 50;
+left: 0;
+right: 0;
+bottom: 0;
+overflow: hidden;
+background-color: #31232382;
+width: 100%;
+color: #fff; 
+
+}
+
+.facilities_overlay span{
+ font-size: 19px;
+color: #e39038;
+}
+.facilities_overlay p{
+    font-size: 29px;
+    font-family: 'League Gothic', sans-serif;
+    padding: 20px;
+}
+
+.exprience_left{
+    overflow: hidden;
+}
+.exprience_left img{
+    width: 100%;
+    cursor: pointer;
+    display: block;
+    transition: 0.8s;
+}
+.exprience_left img:hover{
+ transform: scale(1.5)
+}
+.experience_Right{
+    padding-left: 40px;
+}
+.experience_Right span{
+letter-spacing: 5px;
+
+}
+.experience_Right h3, .Beach_Hotel_left h3{
+   
+    font-size: 50px;
+    padding: 14px 0px;
+}
+
+/*Beach_Hotel_right start*/
+.Beach_Hotel_right img{ 
+width: 100%; 
+
+}
+.Beach_Hotel_right img:hover{
+opacity: 0.6;
+cursor: pointer;
+}
+.Beach_Hotel_left span{
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+/*room start*/
+.roomhover{
+  color: #b99470;
+  font-size: 31px;
+
+}
+.room_title h5{
+    letter-spacing: 4px;
+}
+.room_title h2{
+   /*font-family: 'League Gothic', sans-serif;*/
+}
+.roowm_leftbottom:hover{
+    box-shadow: 3px 9px 10px #827373c9;
+}
+.room_button button{
+    margin-top: 40px;
+}
+/*.myroomimgmtcard{
+   overflow: hidden;
+    display: block;
+    transition: 0.8s;
+}
+.myroomimg{
+ width: 100%;
+}
+.myroomimgmtcard,.myroomimg:hover{
+    transform: scale(1.5);
+}*/
+/*myteam start*/
+.client{
+    background-color: #f3f5f6;
+}
+.mypreviouicon{
+    border-radius: 50%;
+    background-color:#b99470;
+}
+.myteam{
+    width: 20%;
+}
+.myclient {
+      padding-bottom: 30px;
+}
+.myclient img{
+    width: 100%;
+  
+}
+.client_person {
+/*  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;*/
+  padding: 16px;
+  margin: 16px 0
+}
+/*
+.client_person::after {
+  content: "";
+  clear: both;
+  display: table;
+}*/
+
+.client_person img {
+  text-align: center;
+  margin-right: 20px;
+  border-radius: 50%;
+  width:15%;
+}
+.client_person i{
+    color:#dd7816 ;
+}
+.client_person span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+footer{
+    /*background-color: #b99470;*/
+    background-image: url(../images/footerbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-color: #0000!important;
+    color: #000;
+    text-align: ;
+    padding-top:45px;
+    opacity: 0.9;
+}
+footer h1{
+ padding-bottom: 20px;
+font-size: 28px;
+letter-spacing: 2px;
+color: #fff
+}
+.footerleft img{
+    width: 100%;
+}
+.footerMenu  a{
+ 
+    color: #fff;ont-size: 18px;
+line-height: 14px;
+color: #fff;
+}
+.footerright a{
+
+font-size: 20px;
+color: #fff;
+border-radius: 75%;
+padding: 15px;
+border: 1px solid #fff;
+margin-right: 10px;
+transition: 0.6s;
+}
+.footerright a:hover{
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #000;
+}
+.footer_Bottom{
+    border-top: 1px solid #fff;
+}
+.footer_Bottom p{
+    padding-top: 30px;
+
+}
+
+
+/*room page start*/
+
+
+.banner{
+    background: #000 url(../images/roompageBg.jpg) no-repeat center;
+min-height: 500px;
+
+background-size: cover;
+
+}
+.aboutus{
+    background: #000 url(../images/AoutBG.jpg) no-repeat center;
+}
+.mybreadcrum{
+    margin-top: 30px;
+}
+.banner_Title h2{
+    font-size: 60px;
+    color: #fff;
+    margin-top: 60px;
+}
+.mybreadcrum {
+    padding-left: 150px;
+    padding-top: 30px;
+}
+.mybreadcrum ol li{
+font-size:30px;
+}
+.mybreadcrum ol li a{
+    color: #fff;
+    font-size: 25px;
+}
+.room_ICON i{
+    font-size: 20px;
+line-height: 38px;
+} 
+.room_ICON span{
+    margin-left: 10px;
+    font-size: 15px;
+}
+.roomtitle a{
+    color: #000;
+    text-decoration: none;
+    font-size: 33px;
+     font-family: 'League Gothic', sans-serif;
+
+}
+.roomtitle a:hover{
+    color: #d26f0e;
+    transition: 0.8s;
+}
+.roomtitle_bottom {
+  font-size: 20px;
+  padding: 20px 0px;
+}
+.cardrow{
+    margin-bottom: 40px;
+}
+.mycard{
+    overflow:hidden;
+}
+.carbodyimg img{
+width: 100%;
+display: block; 
+    transition: 0.8s;
+    cursor: pointer;
+}
+.mycard:hover .carbodyimg img{
+    transform: scale(1.1);
+}
+/*room_Part2*/
+.room_Part2{
+background-color: #f2f2f3
+}
+.room_Part2_title h2{}
+.room_Part2_title p{
+    font-size: 18px;
+    color: #000;
+}
+.roolpart2 img{
+    width: 100%;
+}
+.room_Part2_button{
+    margin-top: 20px;
+}
+
+/*about us page start*/
+.aboutbanner{
+    background: #000 url(../images/aboutBannerBg.jpg)  fixed no-repeat center;
+min-height: 500px;
+}
+.aboutbanner_left{}
+.aboutbanner_left h2{
+    font-size: 50px;
+letter-spacing: 3px;
+padding: 30px;
+}
+.aboutbanner_left p{}
+.myprogressbar
+.myprogressbar span{
+font-size: 20px;
+letter-spacing: 3px;
+padding: 20px 0px;
+}
+.aboutuspageCard_title{
+    border-bottom: 2px solid gray;
+    padding: 5px 0px;
+margin-bottom: 8px;
+}
+/*gallerry start*/
+.RoomGallery{
+    background: #000 url(../images/gallellry.jpg) no-repeat bottom;
+    min-height: 500px;
+}
+/*gallery img start*/
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+
+  margin-top: 20px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  cursor: pointer;
+
+  transition: 0.8s;
+
+}
+.column img:hover{
+   cursor: pointer;
+   opacity: 0.7;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+
+/*contact us page start*/
+.contactform{
+    overflow: hidden;
+    /*display: flex;*/
+    background: #8080800a;
+padding: 75px 0px;
+}
+.contactLeft{
+width: 50%;
+float: left;
+}
+.contactLeft h1,.contactRight h1 {
+  font-size: 50px;
+  padding-top: 30px;
+}
+.contactLeft p {
+  font-size:16px;
+  padding-top: 20px;
+}
+.contactRight{
+width: 50%;
+float: left;
+}
+{
+    padding-top: 30px;
+}
+.contactpageICON{
+    padding-top: 30px;
+    text-align: left;
+}
+.contactpageICON i {
+  background: #000;
+}
+.contactpageICON i:hover{
+background-color: #fdc913!important;
+color: #000;
+}
+input {
+  width: 86%;
+  border: none;
+  background: #80808052;
+  padding: 20px;
+margin-top: 20px;
+  border-radius: 6px;
+}
+input:visited{
+    border: 1px solid red;
+}
+textarea{
+resize: none;
+width: 86%;
+border: none;
+background: #80808052;
+min-height: 150px;
+margin: 20px 0px;
+border-radius: 6px;
+padding: 19px;
+
+}
+.contactusbutton{  width: 21%;
+  padding: 11px 0px;
+  background: none;
+  border: 3px solid gray;
+  font-size: 22px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.contactusbutton:hover{
+    background: #fdc913;
+    border: 3px solid #fdc913;
+    border-radius: 5px;
+}
+/*form style*/
+#name, #numb, #email, #datasub{
+    color: red;
+}
+.contactfooter a{
+    border: 1px solid #fff;
+   background-color: #fff;
+    color: #000;
+}
+.contactfooter a:hover{
+    background-color: #000;
+    color: #fff;
+}
+.googlemap{
+    min-height: 400px;
+}
+.googlemap iframe{
+    display: block;
+}
